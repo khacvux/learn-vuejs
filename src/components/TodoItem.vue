@@ -1,6 +1,6 @@
 <template lang="">
-    <div :class="['w-full py-[5px] my-[10px] px-[10px] rounded-[10px] bg-[#1A1A1A] flex flex-row items-center space-x-[5px] transition-all', 
-    todoProps.completed ? 'bg-[#43B782]' : null
+    <div :class="['w-full py-[5px] my-[10px] px-[10px] rounded-[10px] flex flex-row items-center space-x-[5px] transition-all', 
+        todoProps.completed ? 'bg-[#43B782]' : 'bg-[#1A1A1A]'
     ]">
         <p class="flex-1 truncate">{{todoProps.title}}</p>
         <button
